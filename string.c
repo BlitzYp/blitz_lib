@@ -9,10 +9,10 @@ int freq(const char* string, char to_check)
     return count;
 }
 
-int strlen(const char* string)
+int strlen(const char* str)
 {
     int i = 0;
-    for (;string[i] != '\0';i++);
+    for (;str[i] != '\0';i++);
     return i;
 }
 
